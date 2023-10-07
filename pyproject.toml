@@ -1,16 +1,16 @@
 [tool.poetry]
-name = "mlmirna"
+name = "mlops2023"
 version = "0.1.0"
-description = "ML-based feature selection for transcriptomic data"
-authors = ["German <german.osmak@gmail.com>"]
-license = "Apache license 2.0"
+description = ""
+authors = ["german <mr.g.o@yandex.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
-pandas = "^1.3.5"
+python = ">=3.9,<3.13"
+pandas = "^2.1.1"
 sklearn = "^0.0.post9"
-scipy = "^1.7.3"
+joblib = "^1.3.2"
+
 
 [build-system]
 requires = ["poetry-core"]
