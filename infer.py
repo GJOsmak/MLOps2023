@@ -2,7 +2,16 @@ import hydra
 import joblib
 import numpy as np
 import pandas as pd
+from hydra.core.config_store import ConfigStore
 from sklearn.metrics import accuracy_score
+
+from config import KNNMnist_param
+
+
+cs = (
+    ConfigStore.instance()
+)  # создаем хранилище конфигураций, куда будут подтягиваться классы из config
+cs.store(name="knn_mnist_param", node=KNNMnist_param)
 
 
 @hydra.main(config_path="conf", config_name="config", version_base="1.3")
