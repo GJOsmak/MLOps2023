@@ -10,10 +10,13 @@ python = ">=3.9,<3.13"
 pandas = "^2.1.1"
 sklearn = "^0.0.post9"
 joblib = "^1.3.2"
+hydra-core = "^1.3.2"
+omegaconf = "^2.3.0"
 
 [tool.poetry.group.dev.dependencies]
 dvc-gdrive = "^2.20.0"
 dvc = "^3.31.2"
+click = "^8.1.7"
 
 [tool.black]
 line-length = 90

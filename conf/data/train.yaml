@@ -1,0 +1,3 @@
+name: train_data
+path: './data/train/mnist_train.csv'
+target_path: '.data/train/mnist_target_train.csv'

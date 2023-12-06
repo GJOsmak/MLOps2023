@@ -1,0 +1,7 @@
+model:
+    k_neighbours: 10
+    weight_samples: True
+    weight_param: 0.8
+
+training:
+    file_path: './trained_model.joblib'
