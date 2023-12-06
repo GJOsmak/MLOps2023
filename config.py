@@ -1,19 +1,12 @@
 from dataclasses import dataclass
-from typing import Any
 
 
 @dataclass
-class Traindata:
-    name: str
-    path: str
-    target_path: str
-
-
-@dataclass
-class Testdata:
-    name: str
-    path: str
-    target_path: str
+class Data:
+    test_data: str
+    test_target: str
+    train_data: str
+    train_target: str
 
 
 @dataclass
@@ -24,12 +17,13 @@ class Model:
 
 
 @dataclass
-class Training:
-    file_path: str
+class Paths:
+    trained_model: str
+    result: str
 
 
 @dataclass
-class Params:
-    data: Any
+class KNNMnist_param:
+    data: Data
     model: Model
-    training: Training
+    paths: Paths

@@ -6,16 +6,18 @@ authors = ["german <mr.g.o@yandex.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.13"
-pandas = "^2.1.1"
-sklearn = "^0.0.post9"
+python = ">=3.7.0,<3.11"
+pandas = "^1.2.2"
+sklearn = "0.0.post9"
 joblib = "^1.3.2"
 hydra-core = "^1.3.2"
 omegaconf = "^2.3.0"
+scipy = "1.7.3"
+scikit-learn = "^0.23"
 
 [tool.poetry.group.dev.dependencies]
-dvc-gdrive = "^2.20.0"
-dvc = "^3.31.2"
+dvc-gdrive = {version = "^2.20.0", python = "^3.8"}
+dvc = "^1.11.6"
 click = "^8.1.7"
 
 [tool.black]

@@ -1,7 +1,11 @@
+defaults:
+    - data: mnist
+    - _self_
 model:
     k_neighbours: 10
     weight_samples: True
     weight_param: 0.8
 
-training:
-    file_path: './trained_model.joblib'
+paths:
+    trained_model: './trained_model.joblib'
+    result: './prediction.csv'
