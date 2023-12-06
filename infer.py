@@ -25,3 +25,7 @@ def main(cfg):
     np.savetxt(cfg.paths.result, y_pred, delimiter=',', fmt='%d')
     print('Classifier Accuracy =', accuracy_score(y_test, y_pred))
     print('Предсказания сохранены в', cfg.paths.result)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,4 +1,4 @@
-test_data: './data/train/mnist_test.csv'
-test_target: './data/train/mnist_target_test.csv'
+test_data: './data/test/mnist_test.csv'
+test_target: './data/test/mnist_target_test.csv'
 train_data: './data/train/mnist_train.csv'
 train_target: './data/train/mnist_target_train.csv'

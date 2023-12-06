@@ -6,7 +6,7 @@ authors = ["german <mr.g.o@yandex.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.7.0,<3.11"
+python = ">=3.8,<3.11"
 pandas = "^1.2.2"
 sklearn = "0.0.post9"
 joblib = "^1.3.2"
